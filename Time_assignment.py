@@ -1,4 +1,20 @@
- 
+total_seconds=work_time.seconds
+    #print('tot sec: ', total_seconds)
+hours = total_seconds/3600
+    #print('tot hours: ', hours)
+hours_days = work_time.days
+    #print('tot hoursdays: ', hours_days)
+total_hours = hours + (hours_days * 24)
+    #print('tot_hours: ', total_hours)
+rate_of_pay = 5
+total_pay = round(total_hours * rate_of_pay, 2)
+print(f'Your total pay is {currency}', total_pay)
+today = date.today() 
+
+
+
+
+
 import csv
 with open('total_pay.csv', 'w', newline='') as file:
     writer = csv.writer(file)
