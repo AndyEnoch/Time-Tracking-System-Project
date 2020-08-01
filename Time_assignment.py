@@ -1,4 +1,5 @@
 from datetime import datetime, date
+
 while True:
     try:
         x = input("Please enter start date and time, use the format DD/MM/YY HH:MM:")
