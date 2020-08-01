@@ -16,5 +16,5 @@ The total pay from the calculation is then written into an excel csv format, whi
 Contributors:
 #@Kwabena44 = Timothy Ofosu
 #Andy Aladi
-#Stephaie Dawsonn-Andoh
-#Whitney Owusu-Ansah
+#@Stephanie Dawsonn-Andoh
+@Whitney Owusu-Anah
