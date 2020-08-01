@@ -15,6 +15,6 @@ The total pay from the calculation is then written into an excel csv format, whi
 
 Contributors:
 @Kwabena44
-@AndyEnoch
-Stephanie Dawsonn-Andoh
-Whitney Owusu-Ansah
+# Andy Aladi
+@Stephandoh
+@Whitz22
