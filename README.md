@@ -14,7 +14,7 @@ Display
 The total pay from the calculation is then written into an excel csv format, which displays the current date, start date and time, hours worked, end date and time, rate of pay and total pay. 
 
 Contributors:
-@Kwabena44
+@Kwabena44 = Timothy Ofosu
 # Andy Aladi
 @Stephandoh
 @Whitz22
