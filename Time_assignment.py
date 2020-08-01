@@ -1,3 +1,23 @@
+from datetime import datetime, date
+while True:
+    try:
+        x = input("Please enter start date and time, use the format DD/MM/YY HH:MM:")
+        start_date = datetime.strptime(x,"%d/%m/%y %H:%M") 
+        break
+    except ValueError as e:
+        print('Please use the format DD/MM/YY HH:MM:')
+print(start_date)
+
+
+while True:
+    try:
+        x = input("Please enter end date and time, use the format DD/MM/YY HH:MM:")
+        end_date = datetime.strptime(x,"%d/%m/%y %H:%M") 
+        break
+    except ValueError as e:
+        print('Please use the format DD/MM/YY HH:MM:')
+print(end_date)
+
 work_time = end_date - start_date
 print(f"your total work time is {work_time}")
 print ("Stop time: ", end_date)
