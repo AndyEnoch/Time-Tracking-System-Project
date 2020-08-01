@@ -19,7 +19,7 @@ while True:
         print('Please use the format DD/MM/YY HH:MM:')
 print(end_date)
 
-
+#
 total_seconds=work_time.seconds
     #print('tot sec: ', total_seconds)
 hours = total_seconds/3600
