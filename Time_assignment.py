@@ -1,3 +1,9 @@
+work_time = end_date - start_date
+print(f"your total work time is {work_time}")
+print ("Stop time: ", end_date)
+currency = "$"
+
+
 total_seconds=work_time.seconds
     #print('tot sec: ', total_seconds)
 hours = total_seconds/3600
